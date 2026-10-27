@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le Vide-poche pour iPhone</title>
+<style>
+  :root { color-scheme: light dark; --fond: #f5f5f7; --carte: #fff; --texte: #1d1d1f; --doux: #6e6e73; --accent: #0a66ff; }
+  @media (prefers-color-scheme: dark) { :root { --fond: #000; --carte: #1c1c1e; --texte: #f5f5f7; --doux: #a1a1a6; } }
+  body { margin: 0; background: var(--fond); color: var(--texte); font: 17px/1.45 -apple-system, system-ui, sans-serif; }
+  main { max-width: 520px; margin: 0 auto; padding: 48px 16px; }
+  .carte { background: var(--carte); border-radius: 18px; padding: 24px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  .version { color: var(--doux); margin: 0 0 24px; }
+  a.bouton { display: block; text-align: center; background: var(--accent); color: #fff; text-decoration: none;
+             font-weight: 600; padding: 14px; border-radius: 12px; }
+  ol { padding-left: 20px; color: var(--doux); }
+  li { margin: 6px 0; }
+</style>
+</head>
+<body>
+<main>
+  <div class="carte">
+    <h1>Le Vide-poche</h1>
+    <p class="version">Version 0.3.1 pour iPhone · Web Premiere</p>
+    <a class="bouton" href="itms-services://?action=download-manifest&amp;url=https://webpremiere.github.io/levidepoche-app-swift-releases/ios/manifest.plist">Installer sur cet iPhone</a>
+    <ol>
+      <li>Ouvrez cette page dans <strong>Safari</strong> sur l'iPhone.</li>
+      <li>Touchez « Installer », puis confirmez : l'icône apparaît sur l'écran d'accueil.</li>
+      <li>Seuls les iPhone enregistrés par Web Premiere peuvent installer l'app.</li>
+      <li>Pour une nouvelle version, revenez sur cette page et réinstallez : vos données restent dans iCloud.</li>
+    </ol>
+  </div>
+</main>
+</body>
+</html>
